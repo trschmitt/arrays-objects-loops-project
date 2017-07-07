@@ -75,7 +75,7 @@ console.log(film)
 */
 function addActor(){
     // Your answer here:
-    film.actors[3] = "Yukiko Shimazaki";
+    film.actors.push("Yukiko Shimazaki");
     return film;
 }
 
@@ -106,7 +106,7 @@ let letterVals = [ "v", "x", "r", "f", "p" ];
 function interleave(){
     let vals = [];
     // Your answer here:
-    
+    return vals;
 }
 
 
